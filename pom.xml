@@ -74,6 +74,9 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <includes>
+                        <include>**/ParallelBuilderCucumberreport.java</include>
+                    </includes>>
 
                 </configuration>
             </plugin>
