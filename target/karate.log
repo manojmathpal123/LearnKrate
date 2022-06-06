@@ -1,0 +1,3813 @@
+13:36:12.080 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:36:12.101 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:36:13.057 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:13.057 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:13.359 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:36:13.359 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:36:14.073 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 710
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:06:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: fc39eff8-6962-4e46-9c56-51773ab21591
+1 < X-Runtime: 0.003077
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:36:14.077 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 707
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:06:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: a0843d53-b933-4425-a6c1-336b83aa0e57
+1 < X-Runtime: 0.006737
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:36:14.116 [pool-1-thread-2] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:36:14.128 [pool-1-thread-2] INFO  com.intuit.karate - [print] 20 
+13:36:15.008 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+13:39:03.622 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:39:03.628 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654243743627
+13:39:03.643 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:39:04.683 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:39:04.683 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:39:05.233 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:39:05.233 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:39:06.361 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1118
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:09:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 3c1584cb-e6f6-40e7-9e9a-9b3657ab28a6
+1 < X-Runtime: 0.007204
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:39:06.393 [pool-1-thread-2] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:39:06.406 [pool-1-thread-2] INFO  com.intuit.karate - [print] 20 
+13:39:06.424 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1189
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:09:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: fbeda299-eb5a-4768-bb4d-32ac7aa41062
+1 < X-Runtime: 0.003023
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:39:07.694 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+13:46:22.497 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:46:22.558 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654244182557
+13:46:22.713 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:46:24.126 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.127 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.126 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.127 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.126 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.905 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+13:46:24.948 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+13:46:24.967 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+13:46:24.978 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:46:24.980 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:46:24.984 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:46:24.978 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:46:24.997 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+13:46:25.001 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:46:25.141 [pool-1-thread-1] INFO  com.intuit.karate - [print] solzEXThIG 
+13:46:25.160 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "solzEXThIG@gmail.com"
+}
+ 
+13:46:25.580 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"female","name":"Satyen Namboothiri122","email":"solzEXThIG@gmail.com","status":"inactive"}
+
+13:46:26.373 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 781
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 87
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/5921
+1 < ETag: W/"862eb60fee62bb54890c2dc423bbed57"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 7baa2e4c-1edc-47cf-b87f-905466050509
+1 < X-Runtime: 0.024456
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"gender":"female","name":"Satyen Namboothiri122","id":5921,"email":"solzEXThIG@gmail.com","status":"inactive"}
+13:46:26.377 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1382
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: eae3efb0-2f42-47e1-9d87-8dcabe141719
+1 < X-Runtime: 0.007398
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:46:26.400 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5921,
+  "email": "solzEXThIG@gmail.com",
+  "status": "inactive"
+}
+ 
+13:46:26.401 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:46:26.417 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+13:46:26.461 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1481
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 19aca48c-b291-48f2-b347-5abaa0b9d67d
+1 < X-Runtime: 0.002936
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:46:26.463 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1484
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: f583d209-8936-4518-b309-53491be242c4
+1 < X-Runtime: 0.003346
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:46:26.481 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1481, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+13:46:26.583 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/5921
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:46:26.591 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1582
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 89
+1 < X-RateLimit-Reset: 2
+1 < X-Pagination-Total: 2792
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"7f8f19f4c06fcf4671d74c592146d01d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 4dcba97d-4d9a-4a93-ae49-1f4cffa8c5a5
+1 < X-Runtime: 0.021301
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"female","name":"Satyen Namboothiri122","id":5921,"email":"solzEXThIG@gmail.com","status":"inactive"},{"gender":"female","name":"Satyen Namboothiri122","id":5713,"email":"w@gmail.com","status":"inactive"},{"gender":"female","name":"Manoj2","id":5712,"email":"as111@gmail.com","status":"inactive"},{"gender":"male","name":"Manoj","id":5711,"email":"as11@gmail.com","status":"active"},{"gender":"female","name":"Satyen Namboothiri122","id":5527,"email":"P@gmail.com","status":"inactive"},{"gender":"female","name":"Ambar Somayaji","id":2858,"email":"somayaji_ambar@wuckert.biz","status":"inactive"},{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Aaryan Guneta DDS","id":2856,"email":"aaryan_guneta_dds@vandervort.info","status":"inactive"},{"gender":"female","name":"Karunanidhi Pilla","id":2855,"email":"karunanidhi_pilla@smith.io","status":"active"},{"gender":"female","name":"Balachandra Kakkar","id":2854,"email":"kakkar_balachandra@morissette-bechtelar.io","status":"inactive"},{"gender":"female","name":"Kamlesh Mehra","id":2853,"email":"kamlesh_mehra@tremblay-white.co","status":"active"},{"gender":"female","name":"Sarada Malik","id":2851,"email":"malik_sarada@reilly.org","status":"active"},{"gender":"female","name":"Chandranath Desai","id":2850,"email":"desai_chandranath@runolfsdottir-schaefer.name","status":"inactive"},{"gender":"female","name":"Bilwa Pandey","id":2849,"email":"pandey_bilwa@mclaughlin.net","status":"active"},{"gender":"female","name":"Sarada Ahluwalia Ret.","id":2847,"email":"ahluwalia_ret_sarada@mraz.com","status":"active"},{"gender":"male","name":"Gauraang Nambeesan JD","id":2846,"email":"jd_gauraang_nambeesan@ortiz.info","status":"inactive"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Sen. Arindam Panicker","id":2844,"email":"sen_arindam_panicker@botsford.io","status":"inactive"},{"gender":"female","name":"Madhuri Butt DVM","id":2843,"email":"madhuri_butt_dvm@kertzmann.biz","status":"active"},{"gender":"female","name":"Kashyap Guha DO","id":2842,"email":"guha_kashyap_do@schiller-wilkinson.info","status":"inactive"}]
+13:46:26.996 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 410
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:16:26 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 88
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"862eb60fee62bb54890c2dc423bbed57"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: 4d7e3bff-a083-424a-bac6-7cb4ba34bde6
+2 < X-Runtime: 0.014377
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5921,"email":"solzEXThIG@gmail.com","status":"inactive"}
+13:46:27.005 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5921,
+  "email": "solzEXThIG@gmail.com",
+  "status": "inactive"
+}
+ 
+13:46:27.012 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5921,
+  "email": "solzEXThIG@gmail.com",
+  "status": "inactive"
+}
+ 
+13:46:27.024 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/5921
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+13:46:27.413 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 388
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:16:27 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: [Accept-Encoding, Origin]
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 87
+3 < X-RateLimit-Reset: 3
+3 < ETag: W/"de28e6f2ef24fcc5d9cbd483f00e482a"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 224a7b7a-78aa-4b93-b568-84a90b75843e
+3 < X-Runtime: 0.019666
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5921,"email":"solzEXThIG@gmail.com","status":"active"}
+13:46:27.415 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5921,
+  "email": "solzEXThIG@gmail.com",
+  "status": "active"
+}
+ 
+13:46:27.416 [pool-1-thread-1] WARN  com.intuit.karate - over-writing existing variable 'jsondata' with new value: response
+13:46:27.420 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/5921
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+13:46:27.963 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 543
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:16:27 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 86
+4 < X-RateLimit-Reset: 4
+4 < Cache-Control: no-cache
+4 < X-Request-Id: dc229e75-8e56-4fc7-b136-7475d237df8f
+4 < X-Runtime: 0.020209
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+13:46:30.576 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+13:46:30.875 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+13:47:58.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:47:58.016 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654244278016
+13:47:58.027 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:47:59.092 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.091 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.090 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.091 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.090 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.224 [pool-1-thread-1] INFO  com.intuit.karate - [print] jDsqaYVcSM 
+13:47:59.229 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+13:47:59.233 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "jDsqaYVcSM@gmail.com"
+}
+ 
+13:47:59.240 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+13:47:59.252 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+13:47:59.269 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:59.274 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+13:47:59.569 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:47:59.570 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:47:59.571 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:47:59.573 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"female","name":"Satyen Namboothiri122","email":"jDsqaYVcSM@gmail.com","status":"inactive"}
+
+13:47:59.578 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:48:00.561 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 981
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/5923
+1 < ETag: W/"f690fa821babcc22abd1bc31f77026c6"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 406c97f3-a314-4898-b92e-40bde9b67185
+1 < X-Runtime: 0.031116
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"gender":"female","name":"Satyen Namboothiri122","id":5923,"email":"jDsqaYVcSM@gmail.com","status":"inactive"}
+13:48:00.565 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 988
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < X-Pagination-Total: 2791
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"5ace874dcec68da256b508eb3cb8bfec"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 27892bcf-bd35-4069-8cb4-602f68fdb05f
+1 < X-Runtime: 0.022951
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"female","name":"Satyen Namboothiri122","id":5923,"email":"jDsqaYVcSM@gmail.com","status":"inactive"},{"gender":"female","name":"Satyen Namboothiri122","id":5713,"email":"w@gmail.com","status":"inactive"},{"gender":"female","name":"Manoj2","id":5712,"email":"as111@gmail.com","status":"inactive"},{"gender":"male","name":"Manoj","id":5711,"email":"as11@gmail.com","status":"active"},{"gender":"female","name":"Satyen Namboothiri122","id":5527,"email":"P@gmail.com","status":"inactive"},{"gender":"female","name":"Ambar Somayaji","id":2858,"email":"somayaji_ambar@wuckert.biz","status":"inactive"},{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Aaryan Guneta DDS","id":2856,"email":"aaryan_guneta_dds@vandervort.info","status":"inactive"},{"gender":"female","name":"Karunanidhi Pilla","id":2855,"email":"karunanidhi_pilla@smith.io","status":"active"},{"gender":"female","name":"Balachandra Kakkar","id":2854,"email":"kakkar_balachandra@morissette-bechtelar.io","status":"inactive"},{"gender":"female","name":"Kamlesh Mehra","id":2853,"email":"kamlesh_mehra@tremblay-white.co","status":"active"},{"gender":"female","name":"Sarada Malik","id":2851,"email":"malik_sarada@reilly.org","status":"active"},{"gender":"female","name":"Chandranath Desai","id":2850,"email":"desai_chandranath@runolfsdottir-schaefer.name","status":"inactive"},{"gender":"female","name":"Bilwa Pandey","id":2849,"email":"pandey_bilwa@mclaughlin.net","status":"active"},{"gender":"female","name":"Sarada Ahluwalia Ret.","id":2847,"email":"ahluwalia_ret_sarada@mraz.com","status":"active"},{"gender":"male","name":"Gauraang Nambeesan JD","id":2846,"email":"jd_gauraang_nambeesan@ortiz.info","status":"inactive"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Sen. Arindam Panicker","id":2844,"email":"sen_arindam_panicker@botsford.io","status":"inactive"},{"gender":"female","name":"Madhuri Butt DVM","id":2843,"email":"madhuri_butt_dvm@kertzmann.biz","status":"active"},{"gender":"female","name":"Kashyap Guha DO","id":2842,"email":"guha_kashyap_do@schiller-wilkinson.info","status":"inactive"}]
+13:48:00.584 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5923,
+  "email": "jDsqaYVcSM@gmail.com",
+  "status": "inactive"
+}
+ 
+13:48:00.638 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1063
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: db1a2a41-ee11-4ce4-b5b9-3de7406525e9
+1 < X-Runtime: 0.007284
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:48:00.639 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/5923
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:48:00.653 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:48:00.675 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+13:48:00.724 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1145
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 300442ba-58e7-4d10-b52b-329c5065854f
+1 < X-Runtime: 0.003175
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:48:00.809 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1237
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: d839c896-91b9-4286-9441-c4b10f7e8f8e
+1 < X-Runtime: 0.003233
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:48:00.813 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1237, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+13:48:01.017 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 374
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:18:00 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 89
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"f690fa821babcc22abd1bc31f77026c6"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: b283e4f3-8276-4c51-b9b2-0c6fe5771666
+2 < X-Runtime: 0.014539
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5923,"email":"jDsqaYVcSM@gmail.com","status":"inactive"}
+13:48:01.028 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5923,
+  "email": "jDsqaYVcSM@gmail.com",
+  "status": "inactive"
+}
+ 
+13:48:01.035 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5923,
+  "email": "jDsqaYVcSM@gmail.com",
+  "status": "inactive"
+}
+ 
+13:48:01.045 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/5923
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+13:48:01.335 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 289
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:18:01 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: [Accept-Encoding, Origin]
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 88
+3 < X-RateLimit-Reset: 2
+3 < ETag: W/"cfc4b05e2a800f8158711105bd4f3cee"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 1bea4717-07d4-4942-83b3-f152ccebb749
+3 < X-Runtime: 0.019193
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5923,"email":"jDsqaYVcSM@gmail.com","status":"active"}
+13:48:01.338 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5923,
+  "email": "jDsqaYVcSM@gmail.com",
+  "status": "active"
+}
+ 
+13:48:01.339 [pool-1-thread-1] WARN  com.intuit.karate - over-writing existing variable 'jsondata' with new value: response
+13:48:01.345 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/5923
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+13:48:01.789 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 444
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:18:01 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 87
+4 < X-RateLimit-Reset: 3
+4 < Cache-Control: no-cache
+4 < X-Request-Id: 41e72eec-5488-4a6d-bf7a-c90deb94ab28
+4 < X-Runtime: 0.019654
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+13:48:03.006 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+13:48:03.196 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+13:49:27.261 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:49:27.266 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654244367266
+13:49:27.278 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:49:28.300 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.299 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.300 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.299 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.299 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.426 [pool-1-thread-1] INFO  com.intuit.karate - [print] SCDPpNZIbw 
+13:49:28.427 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+13:49:28.443 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "SCDPpNZIbw@gmail.com"
+}
+ 
+13:49:28.444 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+13:49:28.447 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+13:49:28.467 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:49:28.471 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+13:49:28.697 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:49:28.697 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:49:28.697 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:49:28.698 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:49:28.700 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"female","name":"Satyen Namboothiri122","email":"SCDPpNZIbw@gmail.com","status":"inactive"}
+
+13:49:29.389 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 689
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 695c353d-b9c2-4781-9977-0d312301a25e
+1 < X-Runtime: 0.002942
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:49:29.393 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 86
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/5933
+1 < ETag: W/"12e57f955c1d56858204fb375fab6020"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: ac06e6f3-cc67-49d5-bbfb-18efa5070de0
+1 < X-Runtime: 0.018684
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"gender":"female","name":"Satyen Namboothiri122","id":5933,"email":"SCDPpNZIbw@gmail.com","status":"inactive"}
+13:49:29.400 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5933,
+  "email": "SCDPpNZIbw@gmail.com",
+  "status": "inactive"
+}
+ 
+13:49:29.420 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/5933
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:49:29.485 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 783
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 89
+1 < X-RateLimit-Reset: 2
+1 < X-Pagination-Total: 2792
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"0d566753aba1867f002bb8ee7fe515ca"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 1845910f-a2ad-4914-8ef8-b986627e1508
+1 < X-Runtime: 0.021137
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"female","name":"Satyen Namboothiri122","id":5933,"email":"SCDPpNZIbw@gmail.com","status":"inactive"},{"gender":"female","name":"Satyen Namboothiri122","id":5713,"email":"w@gmail.com","status":"inactive"},{"gender":"female","name":"Manoj2","id":5712,"email":"as111@gmail.com","status":"inactive"},{"gender":"male","name":"Manoj","id":5711,"email":"as11@gmail.com","status":"active"},{"gender":"female","name":"Satyen Namboothiri122","id":5527,"email":"P@gmail.com","status":"inactive"},{"gender":"female","name":"Ambar Somayaji","id":2858,"email":"somayaji_ambar@wuckert.biz","status":"inactive"},{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Aaryan Guneta DDS","id":2856,"email":"aaryan_guneta_dds@vandervort.info","status":"inactive"},{"gender":"female","name":"Karunanidhi Pilla","id":2855,"email":"karunanidhi_pilla@smith.io","status":"active"},{"gender":"female","name":"Balachandra Kakkar","id":2854,"email":"kakkar_balachandra@morissette-bechtelar.io","status":"inactive"},{"gender":"female","name":"Kamlesh Mehra","id":2853,"email":"kamlesh_mehra@tremblay-white.co","status":"active"},{"gender":"female","name":"Sarada Malik","id":2851,"email":"malik_sarada@reilly.org","status":"active"},{"gender":"female","name":"Chandranath Desai","id":2850,"email":"desai_chandranath@runolfsdottir-schaefer.name","status":"inactive"},{"gender":"female","name":"Bilwa Pandey","id":2849,"email":"pandey_bilwa@mclaughlin.net","status":"active"},{"gender":"female","name":"Sarada Ahluwalia Ret.","id":2847,"email":"ahluwalia_ret_sarada@mraz.com","status":"active"},{"gender":"male","name":"Gauraang Nambeesan JD","id":2846,"email":"jd_gauraang_nambeesan@ortiz.info","status":"inactive"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Sen. Arindam Panicker","id":2844,"email":"sen_arindam_panicker@botsford.io","status":"inactive"},{"gender":"female","name":"Madhuri Butt DVM","id":2843,"email":"madhuri_butt_dvm@kertzmann.biz","status":"active"},{"gender":"female","name":"Kashyap Guha DO","id":2842,"email":"guha_kashyap_do@schiller-wilkinson.info","status":"inactive"}]
+13:49:29.574 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 873
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 0a8b22dc-a704-4e1c-a3a6-e2766b20e952
+1 < X-Runtime: 0.007141
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:49:29.581 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:49:29.591 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+13:49:29.690 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 991
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: a4539095-0c84-4c64-ac6b-eb7211c361b5
+1 < X-Runtime: 0.003049
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:49:29.704 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 991, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+13:49:29.786 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 365
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:19:29 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 88
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"12e57f955c1d56858204fb375fab6020"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: b6d3e634-d07c-4399-a14e-9df125dc7ca0
+2 < X-Runtime: 0.016374
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5933,"email":"SCDPpNZIbw@gmail.com","status":"inactive"}
+13:49:29.792 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5933,
+  "email": "SCDPpNZIbw@gmail.com",
+  "status": "inactive"
+}
+ 
+13:49:29.798 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5933,
+  "email": "SCDPpNZIbw@gmail.com",
+  "status": "inactive"
+}
+ 
+13:49:29.808 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/5933
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+13:49:30.196 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 386
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:19:30 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: [Accept-Encoding, Origin]
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 87
+3 < X-RateLimit-Reset: 3
+3 < ETag: W/"03bb68bad8e10516434ec9ffa9fba1ed"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 24728f44-0e34-4a72-9074-349c242018bd
+3 < X-Runtime: 0.019046
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5933,"email":"SCDPpNZIbw@gmail.com","status":"active"}
+13:49:30.203 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5933,
+  "email": "SCDPpNZIbw@gmail.com",
+  "status": "active"
+}
+ 
+13:49:30.206 [pool-1-thread-1] WARN  com.intuit.karate - over-writing existing variable 'jsondata' with new value: response
+13:49:30.218 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/5933
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+13:49:30.516 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 297
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:19:30 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 86
+4 < X-RateLimit-Reset: 4
+4 < Cache-Control: no-cache
+4 < X-Request-Id: 7e4a94f4-36bd-4405-9a70-15506767337a
+4 < X-Runtime: 0.019358
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+13:49:31.662 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+13:49:31.897 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+13:54:50.914 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:54:50.918 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654244690918
+13:54:50.929 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:54:51.996 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:51.995 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:51.995 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:51.996 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:51.997 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:52.148 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+13:54:52.174 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+13:54:52.179 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+13:54:52.186 [pool-1-thread-1] INFO  com.intuit.karate - [print] qsvQAHddYH 
+13:54:52.196 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:52.201 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+13:54:52.219 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "qsvQAHddYH@gmail.com"
+}
+ 
+13:54:52.623 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:54:52.624 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:54:52.626 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"female","name":"Satyen Namboothiri122","email":"qsvQAHddYH@gmail.com","status":"inactive"}
+
+13:54:52.633 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:54:52.622 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:54:54.051 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1418
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:24:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/5957
+1 < ETag: W/"aedee1c214adca43f874768d2b84d4a5"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 3bf9b001-4587-4bb5-8803-1ad9370bec8f
+1 < X-Runtime: 0.022438
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"gender":"female","name":"Satyen Namboothiri122","id":5957,"email":"qsvQAHddYH@gmail.com","status":"inactive"}
+13:54:54.055 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1423
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:24:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 11d9dea9-fd1f-4ebb-96d0-35b488f11aab
+1 < X-Runtime: 0.007712
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Kumari Jain","id":2841,"email":"jain_kumari@damore-smith.info","status":"active"},{"gender":"male","name":"Pres. Acharyanandana Bandopadhyay","id":2838,"email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","status":"active"},{"gender":"male","name":"Agrata Varma","id":2832,"email":"agrata_varma@wyman-nitzsche.net","status":"active"},{"gender":"male","name":"Brahmanandam Menon","id":2829,"email":"menon_brahmanandam@parker.co","status":"active"},{"gender":"male","name":"Datta Chattopadhyay MD","id":2815,"email":"md_chattopadhyay_datta@stamm.name","status":"active"},{"gender":"male","name":"Aditeya Gupta","id":2814,"email":"aditeya_gupta@maggio-bergstrom.net","status":"active"},{"gender":"male","name":"Chandani Acharya","id":2808,"email":"chandani_acharya@kuvalis.name","status":"active"},{"gender":"male","name":"Bhoopati Malik","id":2803,"email":"bhoopati_malik@larson.name","status":"active"},{"gender":"male","name":"Yogendra Reddy","id":2800,"email":"yogendra_reddy@bartell-roob.org","status":"active"},{"gender":"male","name":"Aasha Kapoor V","id":2799,"email":"aasha_v_kapoor@wisoky-hilpert.org","status":"active"},{"gender":"male","name":"Devesh Ahuja","id":2792,"email":"ahuja_devesh@leuschke.info","status":"active"},{"gender":"male","name":"Sujata Agarwal IV","id":2780,"email":"sujata_agarwal_iv@mante-hilpert.org","status":"active"},{"gender":"male","name":"Sen. Smriti Varman","id":2779,"email":"varman_smriti_sen@parisian.name","status":"active"},{"gender":"male","name":"Ranjeet Nayar Sr.","id":2777,"email":"ranjeet_sr_nayar@crooks.net","status":"active"},{"gender":"male","name":"Deeptanshu Iyengar","id":2773,"email":"deeptanshu_iyengar@corwin-lang.name","status":"active"},{"gender":"male","name":"Puneet Acharya","id":2772,"email":"puneet_acharya@wolf.net","status":"active"},{"gender":"male","name":"Devvrat Dhawan","id":2767,"email":"dhawan_devvrat@brown.co","status":"active"},{"gender":"male","name":"Charuchandra Bhattacharya","id":2761,"email":"bhattacharya_charuchandra@lynch-sipes.com","status":"active"}]
+13:54:54.094 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5957,
+  "email": "qsvQAHddYH@gmail.com",
+  "status": "inactive"
+}
+ 
+13:54:54.093 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "male",
+    "name": "Atmananda Pilla",
+    "id": 2857,
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Jahnu Gill",
+    "id": 2845,
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Kumari Jain",
+    "id": 2841,
+    "email": "jain_kumari@damore-smith.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "id": 2838,
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Agrata Varma",
+    "id": 2832,
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Brahmanandam Menon",
+    "id": 2829,
+    "email": "menon_brahmanandam@parker.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Datta Chattopadhyay MD",
+    "id": 2815,
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aditeya Gupta",
+    "id": 2814,
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Chandani Acharya",
+    "id": 2808,
+    "email": "chandani_acharya@kuvalis.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Bhoopati Malik",
+    "id": 2803,
+    "email": "bhoopati_malik@larson.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Yogendra Reddy",
+    "id": 2800,
+    "email": "yogendra_reddy@bartell-roob.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Aasha Kapoor V",
+    "id": 2799,
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devesh Ahuja",
+    "id": 2792,
+    "email": "ahuja_devesh@leuschke.info",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sujata Agarwal IV",
+    "id": 2780,
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Sen. Smriti Varman",
+    "id": 2779,
+    "email": "varman_smriti_sen@parisian.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Ranjeet Nayar Sr.",
+    "id": 2777,
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Deeptanshu Iyengar",
+    "id": 2773,
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Puneet Acharya",
+    "id": 2772,
+    "email": "puneet_acharya@wolf.net",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Devvrat Dhawan",
+    "id": 2767,
+    "email": "dhawan_devvrat@brown.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Charuchandra Bhattacharya",
+    "id": 2761,
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "status": "active"
+  }
+]
+ 
+13:54:54.114 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+13:54:54.147 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1509
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:24:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 89
+1 < X-RateLimit-Reset: 2
+1 < X-Pagination-Total: 2791
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"5a700e6d63fecf689ca2130cb37192bd"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 3d406715-e97f-496a-8b65-1549e202e6e5
+1 < X-Runtime: 0.022420
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"gender":"female","name":"Satyen Namboothiri122","id":5957,"email":"qsvQAHddYH@gmail.com","status":"inactive"},{"gender":"female","name":"Satyen Namboothiri122","id":5713,"email":"w@gmail.com","status":"inactive"},{"gender":"female","name":"Manoj2","id":5712,"email":"as111@gmail.com","status":"inactive"},{"gender":"male","name":"Manoj","id":5711,"email":"as11@gmail.com","status":"active"},{"gender":"female","name":"Satyen Namboothiri122","id":5527,"email":"P@gmail.com","status":"inactive"},{"gender":"female","name":"Ambar Somayaji","id":2858,"email":"somayaji_ambar@wuckert.biz","status":"inactive"},{"gender":"male","name":"Atmananda Pilla","id":2857,"email":"atmananda_pilla@gleason-gislason.info","status":"active"},{"gender":"male","name":"Aaryan Guneta DDS","id":2856,"email":"aaryan_guneta_dds@vandervort.info","status":"inactive"},{"gender":"female","name":"Karunanidhi Pilla","id":2855,"email":"karunanidhi_pilla@smith.io","status":"active"},{"gender":"female","name":"Balachandra Kakkar","id":2854,"email":"kakkar_balachandra@morissette-bechtelar.io","status":"inactive"},{"gender":"female","name":"Kamlesh Mehra","id":2853,"email":"kamlesh_mehra@tremblay-white.co","status":"active"},{"gender":"female","name":"Sarada Malik","id":2851,"email":"malik_sarada@reilly.org","status":"active"},{"gender":"female","name":"Chandranath Desai","id":2850,"email":"desai_chandranath@runolfsdottir-schaefer.name","status":"inactive"},{"gender":"female","name":"Bilwa Pandey","id":2849,"email":"pandey_bilwa@mclaughlin.net","status":"active"},{"gender":"female","name":"Sarada Ahluwalia Ret.","id":2847,"email":"ahluwalia_ret_sarada@mraz.com","status":"active"},{"gender":"male","name":"Gauraang Nambeesan JD","id":2846,"email":"jd_gauraang_nambeesan@ortiz.info","status":"inactive"},{"gender":"male","name":"Sen. Jahnu Gill","id":2845,"email":"jahnu_gill_sen@volkman-borer.name","status":"active"},{"gender":"male","name":"Sen. Arindam Panicker","id":2844,"email":"sen_arindam_panicker@botsford.io","status":"inactive"},{"gender":"female","name":"Madhuri Butt DVM","id":2843,"email":"madhuri_butt_dvm@kertzmann.biz","status":"active"},{"gender":"female","name":"Kashyap Guha DO","id":2842,"email":"guha_kashyap_do@schiller-wilkinson.info","status":"inactive"}]
+13:54:54.154 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1517
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:24:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: a51a9095-3af8-4c75-a3ab-8f6ff50b175b
+1 < X-Runtime: 0.002784
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:54:54.160 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1517, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+13:54:54.179 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/5957
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:54:54.228 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1592
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:24:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 7403796b-3115-455c-9d89-a2fb9496466c
+1 < X-Runtime: 0.003233
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+13:54:54.541 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 360
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:24:54 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 88
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"aedee1c214adca43f874768d2b84d4a5"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: cfc541ce-1f59-4944-8caa-15c72bac07e2
+2 < X-Runtime: 0.013298
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5957,"email":"qsvQAHddYH@gmail.com","status":"inactive"}
+13:54:54.547 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5957,
+  "email": "qsvQAHddYH@gmail.com",
+  "status": "inactive"
+}
+ 
+13:54:54.553 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5957,
+  "email": "qsvQAHddYH@gmail.com",
+  "status": "inactive"
+}
+ 
+13:54:54.561 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/5957
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+13:54:54.901 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 339
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:24:54 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: [Accept-Encoding, Origin]
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 87
+3 < X-RateLimit-Reset: 3
+3 < ETag: W/"0589eeaedec37ab73e551557c3e43111"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 3373b98d-27bf-479c-95f2-ed8c7ccd535b
+3 < X-Runtime: 0.019094
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","name":"Satyen Namboothiri122","id":5957,"email":"qsvQAHddYH@gmail.com","status":"active"}
+13:54:54.906 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "name": "Satyen Namboothiri122",
+  "id": 5957,
+  "email": "qsvQAHddYH@gmail.com",
+  "status": "active"
+}
+ 
+13:54:54.908 [pool-1-thread-1] WARN  com.intuit.karate - over-writing existing variable 'jsondata' with new value: response
+13:54:54.921 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/5957
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+13:54:55.273 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 350
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:24:55 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 86
+4 < X-RateLimit-Reset: 4
+4 < Cache-Control: no-cache
+4 < X-Request-Id: 9200db49-fa22-4d87-b204-bac54f769f93
+4 < X-Runtime: 0.020445
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+13:54:56.761 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+13:54:56.944 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+14:02:07.543 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:02:07.547 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654245127547
+14:02:07.555 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+14:02:08.714 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.714 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.715 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.715 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.714 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.853 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+14:02:08.864 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+14:02:08.870 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+14:02:08.887 [pool-1-thread-1] INFO  com.intuit.karate - [print] GcuxmPJGKR 
+14:02:08.898 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:08.899 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "GcuxmPJGKR@gmail.com"
+}
+ 
+14:02:08.907 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+14:02:09.273 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:02:09.273 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:02:09.274 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:02:09.275 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Satyen Namboothiri122","gender":"female","status":"inactive","email":"GcuxmPJGKR@gmail.com"}
+
+14:02:09.273 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:02:10.374 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1091
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 557aae57-ca5b-442b-8a22-905b70b8dee1
+1 < X-Runtime: 0.007297
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":2857,"name":"Atmananda Pilla","email":"atmananda_pilla@gleason-gislason.info","gender":"male","status":"active"},{"id":2845,"name":"Sen. Jahnu Gill","email":"jahnu_gill_sen@volkman-borer.name","gender":"male","status":"active"},{"id":2841,"name":"Kumari Jain","email":"jain_kumari@damore-smith.info","gender":"male","status":"active"},{"id":2838,"name":"Pres. Acharyanandana Bandopadhyay","email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","gender":"male","status":"active"},{"id":2832,"name":"Agrata Varma","email":"agrata_varma@wyman-nitzsche.net","gender":"male","status":"active"},{"id":2829,"name":"Brahmanandam Menon","email":"menon_brahmanandam@parker.co","gender":"male","status":"active"},{"id":2815,"name":"Datta Chattopadhyay MD","email":"md_chattopadhyay_datta@stamm.name","gender":"male","status":"active"},{"id":2814,"name":"Aditeya Gupta","email":"aditeya_gupta@maggio-bergstrom.net","gender":"male","status":"active"},{"id":2808,"name":"Chandani Acharya","email":"chandani_acharya@kuvalis.name","gender":"male","status":"active"},{"id":2803,"name":"Bhoopati Malik","email":"bhoopati_malik@larson.name","gender":"male","status":"active"},{"id":2800,"name":"Yogendra Reddy","email":"yogendra_reddy@bartell-roob.org","gender":"male","status":"active"},{"id":2799,"name":"Aasha Kapoor V","email":"aasha_v_kapoor@wisoky-hilpert.org","gender":"male","status":"active"},{"id":2792,"name":"Devesh Ahuja","email":"ahuja_devesh@leuschke.info","gender":"male","status":"active"},{"id":2780,"name":"Sujata Agarwal IV","email":"sujata_agarwal_iv@mante-hilpert.org","gender":"male","status":"active"},{"id":2779,"name":"Sen. Smriti Varman","email":"varman_smriti_sen@parisian.name","gender":"male","status":"active"},{"id":2777,"name":"Ranjeet Nayar Sr.","email":"ranjeet_sr_nayar@crooks.net","gender":"male","status":"active"},{"id":2773,"name":"Deeptanshu Iyengar","email":"deeptanshu_iyengar@corwin-lang.name","gender":"male","status":"active"},{"id":2772,"name":"Puneet Acharya","email":"puneet_acharya@wolf.net","gender":"male","status":"active"},{"id":2767,"name":"Devvrat Dhawan","email":"dhawan_devvrat@brown.co","gender":"male","status":"active"},{"id":2761,"name":"Charuchandra Bhattacharya","email":"bhattacharya_charuchandra@lynch-sipes.com","gender":"male","status":"active"}]
+14:02:10.380 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1095
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < X-Pagination-Total: 2790
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"b492c480538d9e225a4a9cdd7516c84a"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 4beaba39-0d8e-43ca-8fd9-6c722e61908d
+1 < X-Runtime: 0.019946
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":5713,"name":"Satyen Namboothiri122","email":"w@gmail.com","gender":"female","status":"inactive"},{"id":5712,"name":"Manoj2","email":"as111@gmail.com","gender":"female","status":"inactive"},{"id":5711,"name":"Manoj","email":"as11@gmail.com","gender":"male","status":"active"},{"id":5527,"name":"Satyen Namboothiri122","email":"P@gmail.com","gender":"female","status":"inactive"},{"id":2858,"name":"Ambar Somayaji","email":"somayaji_ambar@wuckert.biz","gender":"female","status":"inactive"},{"id":2857,"name":"Atmananda Pilla","email":"atmananda_pilla@gleason-gislason.info","gender":"male","status":"active"},{"id":2856,"name":"Aaryan Guneta DDS","email":"aaryan_guneta_dds@vandervort.info","gender":"male","status":"inactive"},{"id":2855,"name":"Karunanidhi Pilla","email":"karunanidhi_pilla@smith.io","gender":"female","status":"active"},{"id":2854,"name":"Balachandra Kakkar","email":"kakkar_balachandra@morissette-bechtelar.io","gender":"female","status":"inactive"},{"id":2853,"name":"Kamlesh Mehra","email":"kamlesh_mehra@tremblay-white.co","gender":"female","status":"active"},{"id":2851,"name":"Sarada Malik","email":"malik_sarada@reilly.org","gender":"female","status":"active"},{"id":2850,"name":"Chandranath Desai","email":"desai_chandranath@runolfsdottir-schaefer.name","gender":"female","status":"inactive"},{"id":2849,"name":"Bilwa Pandey","email":"pandey_bilwa@mclaughlin.net","gender":"female","status":"active"},{"id":2847,"name":"Sarada Ahluwalia Ret.","email":"ahluwalia_ret_sarada@mraz.com","gender":"female","status":"active"},{"id":2846,"name":"Gauraang Nambeesan JD","email":"jd_gauraang_nambeesan@ortiz.info","gender":"male","status":"inactive"},{"id":2845,"name":"Sen. Jahnu Gill","email":"jahnu_gill_sen@volkman-borer.name","gender":"male","status":"active"},{"id":2844,"name":"Sen. Arindam Panicker","email":"sen_arindam_panicker@botsford.io","gender":"male","status":"inactive"},{"id":2843,"name":"Madhuri Butt DVM","email":"madhuri_butt_dvm@kertzmann.biz","gender":"female","status":"active"},{"id":2842,"name":"Kashyap Guha DO","email":"guha_kashyap_do@schiller-wilkinson.info","gender":"female","status":"inactive"},{"id":2841,"name":"Kumari Jain","email":"jain_kumari@damore-smith.info","gender":"male","status":"active"}]
+14:02:10.403 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "id": 2857,
+    "name": "Atmananda Pilla",
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2845,
+    "name": "Sen. Jahnu Gill",
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2841,
+    "name": "Kumari Jain",
+    "email": "jain_kumari@damore-smith.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2838,
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2832,
+    "name": "Agrata Varma",
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2829,
+    "name": "Brahmanandam Menon",
+    "email": "menon_brahmanandam@parker.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2815,
+    "name": "Datta Chattopadhyay MD",
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2814,
+    "name": "Aditeya Gupta",
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2808,
+    "name": "Chandani Acharya",
+    "email": "chandani_acharya@kuvalis.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2803,
+    "name": "Bhoopati Malik",
+    "email": "bhoopati_malik@larson.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2800,
+    "name": "Yogendra Reddy",
+    "email": "yogendra_reddy@bartell-roob.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2799,
+    "name": "Aasha Kapoor V",
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2792,
+    "name": "Devesh Ahuja",
+    "email": "ahuja_devesh@leuschke.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2780,
+    "name": "Sujata Agarwal IV",
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2779,
+    "name": "Sen. Smriti Varman",
+    "email": "varman_smriti_sen@parisian.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2777,
+    "name": "Ranjeet Nayar Sr.",
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2773,
+    "name": "Deeptanshu Iyengar",
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2772,
+    "name": "Puneet Acharya",
+    "email": "puneet_acharya@wolf.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2767,
+    "name": "Devvrat Dhawan",
+    "email": "dhawan_devvrat@brown.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2761,
+    "name": "Charuchandra Bhattacharya",
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "gender": "male",
+    "status": "active"
+  }
+]
+ 
+14:02:10.412 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1137
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 4f4f7372-91e2-4548-88ae-1a08f71dd00c
+1 < X-Runtime: 0.002989
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+14:02:10.428 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 89
+1 < X-RateLimit-Reset: 2
+1 < Location: https://gorest.co.in/public/v2/users/5978
+1 < ETag: W/"27d9f91f581736c092d58f222c7ec41f"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: d20ec34d-3b61-48e2-bfee-871c927761fa
+1 < X-Runtime: 0.021324
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"id":5978,"name":"Satyen Namboothiri122","email":"GcuxmPJGKR@gmail.com","gender":"female","status":"inactive"}
+14:02:10.433 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+14:02:10.451 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 5978,
+  "name": "Satyen Namboothiri122",
+  "email": "GcuxmPJGKR@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:02:10.497 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1223
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 15cca403-735e-4f9d-b0de-b3c84aa7ee47
+1 < X-Runtime: 0.002856
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+14:02:10.499 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/5978
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:02:10.507 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1223, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+14:02:10.858 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 359
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:32:10 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: Accept-Encoding
+2 < Vary: Origin
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 88
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"27d9f91f581736c092d58f222c7ec41f"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: 161262cc-f34d-4d93-8978-d475a46ce3ac
+2 < X-Runtime: 0.014515
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"id":5978,"name":"Satyen Namboothiri122","email":"GcuxmPJGKR@gmail.com","gender":"female","status":"inactive"}
+14:02:10.865 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 5978,
+  "name": "Satyen Namboothiri122",
+  "email": "GcuxmPJGKR@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:02:10.872 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 5978,
+  "name": "Satyen Namboothiri122",
+  "email": "GcuxmPJGKR@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:02:10.884 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/5978
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+14:02:11.310 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 425
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:32:11 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: Accept-Encoding
+3 < Vary: Origin
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 87
+3 < X-RateLimit-Reset: 3
+3 < ETag: W/"4056c8af3983726a6eaa5742d23611c5"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: bc875851-02f3-4386-97a1-8822e0379565
+3 < X-Runtime: 0.018847
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","status":"active","id":5978,"name":"Satyen Namboothiri122","email":"GcuxmPJGKR@gmail.com"}
+14:02:11.316 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "status": "active",
+  "id": 5978,
+  "name": "Satyen Namboothiri122",
+  "email": "GcuxmPJGKR@gmail.com"
+}
+ 
+14:02:11.318 [pool-1-thread-1] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'jsondata' with new value: response
+14:02:11.336 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/5978
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+14:02:11.698 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 361
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:32:11 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 86
+4 < X-RateLimit-Reset: 4
+4 < Cache-Control: no-cache
+4 < X-Request-Id: 196346a2-a5d8-4cb3-a985-686001823cd8
+4 < X-Runtime: 0.020319
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+14:02:13.004 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+14:02:13.216 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+14:21:55.563 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:21:55.596 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654246315596
+14:21:55.614 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+14:21:57.142 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.142 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.141 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.141 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.140 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.263 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+14:21:57.282 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+14:21:57.288 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+14:21:57.306 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:57.307 [pool-1-thread-1] INFO  com.intuit.karate - [print] rCRLuOfHZH 
+14:21:57.311 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+14:21:57.319 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "rCRLuOfHZH@gmail.com"
+}
+ 
+14:21:58.182 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:58.182 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:58.182 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:58.184 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Satyen Namboothiri122","gender":"female","status":"inactive","email":"rCRLuOfHZH@gmail.com"}
+
+14:21:58.188 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:59.507 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1317
+1 < 201
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/6011
+1 < ETag: W/"13884fe911b5477e0efea92e2566b41c"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 9eff5cad-5e13-4520-b6e1-eabca5853696
+1 < X-Runtime: 0.024040
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"id":6011,"name":"Satyen Namboothiri122","email":"rCRLuOfHZH@gmail.com","gender":"female","status":"inactive"}
+
+14:21:59.507 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1315
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 85
+1 < X-RateLimit-Reset: 1
+1 < X-Pagination-Total: 2790
+1 < X-Pagination-Pages: 140
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"7dda5ec808753cf9a1cfa2fb9485804c"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 688da98b-ed15-45d4-9a0a-31aff5d8b8f4
+1 < X-Runtime: 0.031220
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":6011,"name":"Satyen Namboothiri122","email":"rCRLuOfHZH@gmail.com","gender":"female","status":"inactive"},{"id":5713,"name":"Satyen Namboothiri122","email":"w@gmail.com","gender":"female","status":"inactive"},{"id":5712,"name":"Manoj2","email":"as111@gmail.com","gender":"female","status":"inactive"},{"id":5711,"name":"Manoj","email":"as11@gmail.com","gender":"male","status":"active"},{"id":5527,"name":"Satyen Namboothiri122","email":"P@gmail.com","gender":"female","status":"inactive"},{"id":2858,"name":"Ambar Somayaji","email":"somayaji_ambar@wuckert.biz","gender":"female","status":"inactive"},{"id":2857,"name":"Atmananda Pilla","email":"atmananda_pilla@gleason-gislason.info","gender":"male","status":"active"},{"id":2856,"name":"Aaryan Guneta DDS","email":"aaryan_guneta_dds@vandervort.info","gender":"male","status":"inactive"},{"id":2855,"name":"Karunanidhi Pilla","email":"karunanidhi_pilla@smith.io","gender":"female","status":"active"},{"id":2854,"name":"Balachandra Kakkar","email":"kakkar_balachandra@morissette-bechtelar.io","gender":"female","status":"inactive"},{"id":2853,"name":"Kamlesh Mehra","email":"kamlesh_mehra@tremblay-white.co","gender":"female","status":"active"},{"id":2851,"name":"Sarada Malik","email":"malik_sarada@reilly.org","gender":"female","status":"active"},{"id":2850,"name":"Chandranath Desai","email":"desai_chandranath@runolfsdottir-schaefer.name","gender":"female","status":"inactive"},{"id":2849,"name":"Bilwa Pandey","email":"pandey_bilwa@mclaughlin.net","gender":"female","status":"active"},{"id":2847,"name":"Sarada Ahluwalia Ret.","email":"ahluwalia_ret_sarada@mraz.com","gender":"female","status":"active"},{"id":2846,"name":"Gauraang Nambeesan JD","email":"jd_gauraang_nambeesan@ortiz.info","gender":"male","status":"inactive"},{"id":2845,"name":"Sen. Jahnu Gill","email":"jahnu_gill_sen@volkman-borer.name","gender":"male","status":"active"},{"id":2844,"name":"Sen. Arindam Panicker","email":"sen_arindam_panicker@botsford.io","gender":"male","status":"inactive"},{"id":2843,"name":"Madhuri Butt DVM","email":"madhuri_butt_dvm@kertzmann.biz","gender":"female","status":"active"},{"id":2842,"name":"Kashyap Guha DO","email":"guha_kashyap_do@schiller-wilkinson.info","gender":"female","status":"inactive"}]
+
+14:21:59.533 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 6011,
+  "name": "Satyen Namboothiri122",
+  "email": "rCRLuOfHZH@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:21:59.571 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1387
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 764221c3-4e63-407a-9eef-5766351cb059
+1 < X-Runtime: 0.002869
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+
+14:21:59.579 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/6011
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:21:59.579 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1387, url: https://gorest.co.in/public/v2/users/2924, response: 
+{"message":"Resource not found"}
+classpath:com/api/automation/getrequest.feature:8
+14:21:59.676 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1492
+1 < 404
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Cache-Control: no-cache
+1 < X-Request-Id: 00ad5926-5827-4a63-8fec-7f228120bac9
+1 < X-Runtime: 0.002969
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"message":"Resource not found"}
+
+14:21:59.774 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1591
+1 < 200
+1 < Server: nginx
+1 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 689
+1 < X-Pagination-Pages: 35
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"73c4e243248fbbbf0e46e1944bf49c8d"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: a35a5e97-d8f1-4ac6-b0b7-e4d434fa7109
+1 < X-Runtime: 0.007163
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":2857,"name":"Atmananda Pilla","email":"atmananda_pilla@gleason-gislason.info","gender":"male","status":"active"},{"id":2845,"name":"Sen. Jahnu Gill","email":"jahnu_gill_sen@volkman-borer.name","gender":"male","status":"active"},{"id":2841,"name":"Kumari Jain","email":"jain_kumari@damore-smith.info","gender":"male","status":"active"},{"id":2838,"name":"Pres. Acharyanandana Bandopadhyay","email":"acharyanandana_bandopadhyay_pres@gorczany-mitchell.info","gender":"male","status":"active"},{"id":2832,"name":"Agrata Varma","email":"agrata_varma@wyman-nitzsche.net","gender":"male","status":"active"},{"id":2829,"name":"Brahmanandam Menon","email":"menon_brahmanandam@parker.co","gender":"male","status":"active"},{"id":2815,"name":"Datta Chattopadhyay MD","email":"md_chattopadhyay_datta@stamm.name","gender":"male","status":"active"},{"id":2814,"name":"Aditeya Gupta","email":"aditeya_gupta@maggio-bergstrom.net","gender":"male","status":"active"},{"id":2808,"name":"Chandani Acharya","email":"chandani_acharya@kuvalis.name","gender":"male","status":"active"},{"id":2803,"name":"Bhoopati Malik","email":"bhoopati_malik@larson.name","gender":"male","status":"active"},{"id":2800,"name":"Yogendra Reddy","email":"yogendra_reddy@bartell-roob.org","gender":"male","status":"active"},{"id":2799,"name":"Aasha Kapoor V","email":"aasha_v_kapoor@wisoky-hilpert.org","gender":"male","status":"active"},{"id":2792,"name":"Devesh Ahuja","email":"ahuja_devesh@leuschke.info","gender":"male","status":"active"},{"id":2780,"name":"Sujata Agarwal IV","email":"sujata_agarwal_iv@mante-hilpert.org","gender":"male","status":"active"},{"id":2779,"name":"Sen. Smriti Varman","email":"varman_smriti_sen@parisian.name","gender":"male","status":"active"},{"id":2777,"name":"Ranjeet Nayar Sr.","email":"ranjeet_sr_nayar@crooks.net","gender":"male","status":"active"},{"id":2773,"name":"Deeptanshu Iyengar","email":"deeptanshu_iyengar@corwin-lang.name","gender":"male","status":"active"},{"id":2772,"name":"Puneet Acharya","email":"puneet_acharya@wolf.net","gender":"male","status":"active"},{"id":2767,"name":"Devvrat Dhawan","email":"dhawan_devvrat@brown.co","gender":"male","status":"active"},{"id":2761,"name":"Charuchandra Bhattacharya","email":"bhattacharya_charuchandra@lynch-sipes.com","gender":"male","status":"active"}]
+
+14:21:59.786 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "id": 2857,
+    "name": "Atmananda Pilla",
+    "email": "atmananda_pilla@gleason-gislason.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2845,
+    "name": "Sen. Jahnu Gill",
+    "email": "jahnu_gill_sen@volkman-borer.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2841,
+    "name": "Kumari Jain",
+    "email": "jain_kumari@damore-smith.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2838,
+    "name": "Pres. Acharyanandana Bandopadhyay",
+    "email": "acharyanandana_bandopadhyay_pres@gorczany-mitchell.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2832,
+    "name": "Agrata Varma",
+    "email": "agrata_varma@wyman-nitzsche.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2829,
+    "name": "Brahmanandam Menon",
+    "email": "menon_brahmanandam@parker.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2815,
+    "name": "Datta Chattopadhyay MD",
+    "email": "md_chattopadhyay_datta@stamm.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2814,
+    "name": "Aditeya Gupta",
+    "email": "aditeya_gupta@maggio-bergstrom.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2808,
+    "name": "Chandani Acharya",
+    "email": "chandani_acharya@kuvalis.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2803,
+    "name": "Bhoopati Malik",
+    "email": "bhoopati_malik@larson.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2800,
+    "name": "Yogendra Reddy",
+    "email": "yogendra_reddy@bartell-roob.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2799,
+    "name": "Aasha Kapoor V",
+    "email": "aasha_v_kapoor@wisoky-hilpert.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2792,
+    "name": "Devesh Ahuja",
+    "email": "ahuja_devesh@leuschke.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2780,
+    "name": "Sujata Agarwal IV",
+    "email": "sujata_agarwal_iv@mante-hilpert.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2779,
+    "name": "Sen. Smriti Varman",
+    "email": "varman_smriti_sen@parisian.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2777,
+    "name": "Ranjeet Nayar Sr.",
+    "email": "ranjeet_sr_nayar@crooks.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2773,
+    "name": "Deeptanshu Iyengar",
+    "email": "deeptanshu_iyengar@corwin-lang.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2772,
+    "name": "Puneet Acharya",
+    "email": "puneet_acharya@wolf.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2767,
+    "name": "Devvrat Dhawan",
+    "email": "dhawan_devvrat@brown.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2761,
+    "name": "Charuchandra Bhattacharya",
+    "email": "bhattacharya_charuchandra@lynch-sipes.com",
+    "gender": "male",
+    "status": "active"
+  }
+]
+ 
+14:21:59.801 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+14:21:59.891 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 310
+2 < 200
+2 < Server: nginx
+2 < Date: Fri, 03 Jun 2022 08:51:59 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: Accept-Encoding
+2 < Vary: Origin
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 89
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"13884fe911b5477e0efea92e2566b41c"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: a2d9e763-9a54-46cb-947f-7a04d0b50774
+2 < X-Runtime: 0.016141
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"id":6011,"name":"Satyen Namboothiri122","email":"rCRLuOfHZH@gmail.com","gender":"female","status":"inactive"}
+
+14:21:59.897 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 6011,
+  "name": "Satyen Namboothiri122",
+  "email": "rCRLuOfHZH@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:21:59.905 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 6011,
+  "name": "Satyen Namboothiri122",
+  "email": "rCRLuOfHZH@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+14:21:59.918 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/6011
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+14:22:00.339 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 420
+3 < 200
+3 < Server: nginx
+3 < Date: Fri, 03 Jun 2022 08:52:00 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: Accept-Encoding
+3 < Vary: Origin
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 88
+3 < X-RateLimit-Reset: 2
+3 < ETag: W/"c2c6089337de0f7542c0831aae035a0e"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 00753082-fffd-4fcd-b770-d06ff593a8c6
+3 < X-Runtime: 0.019267
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","status":"active","id":6011,"name":"Satyen Namboothiri122","email":"rCRLuOfHZH@gmail.com"}
+
+14:22:00.344 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "status": "active",
+  "id": 6011,
+  "name": "Satyen Namboothiri122",
+  "email": "rCRLuOfHZH@gmail.com"
+}
+ 
+14:22:00.345 [pool-1-thread-1] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'jsondata' with new value: response
+14:22:00.357 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/6011
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+14:22:00.744 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 386
+4 < 204
+4 < Server: nginx
+4 < Date: Fri, 03 Jun 2022 08:52:00 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 87
+4 < X-RateLimit-Reset: 3
+4 < Cache-Control: no-cache
+4 < X-Request-Id: e9783ea1-b920-41f1-aed0-924b23c6f1ed
+4 < X-Runtime: 0.020524
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+
+14:22:02.364 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+14:22:02.642 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature
+09:31:03.947 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:31:03.976 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1654488063976
+09:31:03.982 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+09:31:06.179 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.179 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.179 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.179 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.179 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.350 [pool-1-thread-1] INFO  com.intuit.karate - [print] CbUGtQprlu 
+09:31:06.363 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "name": "Satyen Namboothiri122",
+  "gender": "female",
+  "status": "inactive",
+  "email": "CbUGtQprlu@gmail.com"
+}
+ 
+09:31:06.359 [pool-1-thread-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "age": "25"
+  },
+  {
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "age": "26"
+  }
+]
+ 
+09:31:06.472 [pool-1-thread-4] INFO  com.intuit.karate - [print] manoj 
+09:31:06.473 [pool-1-thread-4] INFO  com.intuit.karate - [print] rahul rahul@gmail.com 26 
+09:31:06.481 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:06.484 [pool-1-thread-4] INFO  com.intuit.karate - [print] 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c 
+09:31:07.349 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/2924
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:07.350 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Satyen Namboothiri122","gender":"female","status":"inactive","email":"CbUGtQprlu@gmail.com"}
+
+09:31:07.350 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users?gender=male&status=active
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:07.350 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in//public/v2/users
+1 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:07.349 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:08.394 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1032
+1 < 200
+1 < Server: nginx
+1 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < ETag: W/"ee086830cbc5ff280dec86d43210744e"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: fbb26136-f93f-4b5d-9aa1-5e27990f416e
+1 < X-Runtime: 0.003561
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"id":1,"name":"Naveen Butt","email":"naveen_butt@heller.org","gender":"male","status":"active"}
+
+09:31:08.419 [pool-1-thread-3] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:46
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 1032, url: https://gorest.co.in/public/v2/users/1, response: 
+{"id":1,"name":"Naveen Butt","email":"naveen_butt@heller.org","gender":"male","status":"active"}
+classpath:com/api/automation/getrequest.feature:46
+09:31:08.486 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1132
+1 < 200
+1 < Server: nginx
+1 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-Pagination-Total: 1078
+1 < X-Pagination-Pages: 54
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"0d6d65b712935f35ee5109f035cd82f1"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 8a71328e-27b9-4410-9810-a38744f2c983
+1 < X-Runtime: 0.007844
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":4233,"name":"Prof. Gitanjali Menon","email":"prof_gitanjali_menon@brekke.net","gender":"male","status":"active"},{"id":4227,"name":"Dhanadeepa Dwivedi","email":"dwivedi_dhanadeepa@barrows.net","gender":"male","status":"active"},{"id":4222,"name":"Chatura Dutta","email":"dutta_chatura@stokes-anderson.io","gender":"male","status":"active"},{"id":4216,"name":"Kashyapi Nehru","email":"kashyapi_nehru@moen-gusikowski.biz","gender":"male","status":"active"},{"id":4215,"name":"Balagopal Jain DVM","email":"balagopal_dvm_jain@macejkovic.org","gender":"male","status":"active"},{"id":4214,"name":"Ekaaksh Mahajan","email":"mahajan_ekaaksh@hintz.org","gender":"male","status":"active"},{"id":4212,"name":"Eshana Nambeesan","email":"eshana_nambeesan@barrows-lubowitz.name","gender":"male","status":"active"},{"id":4209,"name":"Drona Bandopadhyay JD","email":"jd_bandopadhyay_drona@miller.name","gender":"male","status":"active"},{"id":4207,"name":"Charuchandra Desai","email":"charuchandra_desai@hyatt.net","gender":"male","status":"active"},{"id":4204,"name":"Kumari Deshpande","email":"kumari_deshpande@kuvalis-cummerata.name","gender":"male","status":"active"},{"id":4202,"name":"Rajiv Shah PhD","email":"phd_rajiv_shah@abernathy.net","gender":"male","status":"active"},{"id":4200,"name":"Anjali Arora","email":"arora_anjali@hintz-mosciski.co","gender":"male","status":"active"},{"id":4197,"name":"Chapala Chopra","email":"chapala_chopra@hilll.net","gender":"male","status":"active"},{"id":4196,"name":"Ghanshyam Chaturvedi","email":"ghanshyam_chaturvedi@corwin.co","gender":"male","status":"active"},{"id":4185,"name":"Gurdev Kakkar","email":"gurdev_kakkar@russel-grady.io","gender":"male","status":"active"},{"id":4182,"name":"Rati Dubashi","email":"rati_dubashi@cole-daniel.name","gender":"male","status":"active"},{"id":4176,"name":"Kiran Sinha","email":"kiran_sinha@schmitt.info","gender":"male","status":"active"},{"id":4175,"name":"Eshita Asan","email":"eshita_asan@kutch.info","gender":"male","status":"active"},{"id":4174,"name":"Mrs. Balagopal Mahajan","email":"mrs_mahajan_balagopal@swaniawski.org","gender":"male","status":"active"},{"id":4172,"name":"Sarvin Naik JD","email":"jd_naik_sarvin@dietrich.biz","gender":"male","status":"active"}]
+
+09:31:08.496 [pool-1-thread-5] INFO  com.intuit.karate - [print] [
+  {
+    "id": 4233,
+    "name": "Prof. Gitanjali Menon",
+    "email": "prof_gitanjali_menon@brekke.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4227,
+    "name": "Dhanadeepa Dwivedi",
+    "email": "dwivedi_dhanadeepa@barrows.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4222,
+    "name": "Chatura Dutta",
+    "email": "dutta_chatura@stokes-anderson.io",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4216,
+    "name": "Kashyapi Nehru",
+    "email": "kashyapi_nehru@moen-gusikowski.biz",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4215,
+    "name": "Balagopal Jain DVM",
+    "email": "balagopal_dvm_jain@macejkovic.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4214,
+    "name": "Ekaaksh Mahajan",
+    "email": "mahajan_ekaaksh@hintz.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4212,
+    "name": "Eshana Nambeesan",
+    "email": "eshana_nambeesan@barrows-lubowitz.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4209,
+    "name": "Drona Bandopadhyay JD",
+    "email": "jd_bandopadhyay_drona@miller.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4207,
+    "name": "Charuchandra Desai",
+    "email": "charuchandra_desai@hyatt.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4204,
+    "name": "Kumari Deshpande",
+    "email": "kumari_deshpande@kuvalis-cummerata.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4202,
+    "name": "Rajiv Shah PhD",
+    "email": "phd_rajiv_shah@abernathy.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4200,
+    "name": "Anjali Arora",
+    "email": "arora_anjali@hintz-mosciski.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4197,
+    "name": "Chapala Chopra",
+    "email": "chapala_chopra@hilll.net",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4196,
+    "name": "Ghanshyam Chaturvedi",
+    "email": "ghanshyam_chaturvedi@corwin.co",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4185,
+    "name": "Gurdev Kakkar",
+    "email": "gurdev_kakkar@russel-grady.io",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4182,
+    "name": "Rati Dubashi",
+    "email": "rati_dubashi@cole-daniel.name",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4176,
+    "name": "Kiran Sinha",
+    "email": "kiran_sinha@schmitt.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4175,
+    "name": "Eshita Asan",
+    "email": "eshita_asan@kutch.info",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4174,
+    "name": "Mrs. Balagopal Mahajan",
+    "email": "mrs_mahajan_balagopal@swaniawski.org",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 4172,
+    "name": "Sarvin Naik JD",
+    "email": "jd_naik_sarvin@dietrich.biz",
+    "gender": "male",
+    "status": "active"
+  }
+]
+ 
+09:31:08.512 [pool-1-thread-5] INFO  com.intuit.karate - [print] 20 
+09:31:08.689 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1336
+1 < 200
+1 < Server: nginx
+1 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < ETag: W/"88eda173792f9bade6d7f10a984b0ede"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 0c4ce5a7-6478-4fb6-884a-25b52503298b
+1 < X-Runtime: 0.003564
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"id":2924,"name":"Tanirika Jha","email":"tanirika_jha@spencer.net","gender":"male","status":"inactive"}
+
+09:31:08.689 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1337
+1 < 201
+1 < Server: nginx
+1 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 86
+1 < X-RateLimit-Reset: 1
+1 < Location: https://gorest.co.in/public/v2/users/4521
+1 < ETag: W/"a3fc017c3fd9067ca6b9606295c7e625"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 76aaf73e-96f6-4e29-9996-c3fe12ce9cf5
+1 < X-Runtime: 0.019794
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Vary: Origin
+{"id":4521,"name":"Satyen Namboothiri122","email":"CbUGtQprlu@gmail.com","gender":"female","status":"inactive"}
+
+09:31:08.693 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "id": 2924,
+  "name": "Tanirika Jha",
+  "email": "tanirika_jha@spencer.net",
+  "gender": "male",
+  "status": "inactive"
+}
+ 
+09:31:08.698 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 4521,
+  "name": "Satyen Namboothiri122",
+  "email": "CbUGtQprlu@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+09:31:08.709 [pool-1-thread-2] ERROR com.intuit.karate - classpath:com/api/automation/getrequest.feature:11
+* match response ==
+"""
+{
+  "id": 13,
+  "name": "Satyen Namboothiri",
+  "email": "namboothiri_satyen@cruickshank.org",
+  "gender": "female",
+  "status": "inactive"
+}
+"""
+match failed: EQUALS
+  $ | not equal | match failed for name: 'id' (MAP:MAP)
+  {"id":2924,"name":"Tanirika Jha","email":"tanirika_jha@spencer.net","gender":"male","status":"inactive"}
+  {"id":13,"name":"Satyen Namboothiri","email":"namboothiri_satyen@cruickshank.org","gender":"female","status":"inactive"}
+
+    $.id | not equal (NUMBER:NUMBER)
+    2924
+    13
+
+classpath:com/api/automation/getrequest.feature:11
+09:31:08.711 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://gorest.co.in/public/v2/users/4521
+2 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 > Host: gorest.co.in
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+09:31:08.806 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1453
+1 < 200
+1 < Server: nginx
+1 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-XSS-Protection: 0
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < X-RateLimit-Limit: 90
+1 < X-RateLimit-Remaining: 89
+1 < X-RateLimit-Reset: 2
+1 < X-Pagination-Total: 4202
+1 < X-Pagination-Pages: 211
+1 < X-Pagination-Page: 1
+1 < X-Pagination-Limit: 20
+1 < X-Links-Previous: 
+1 < X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+1 < X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+1 < ETag: W/"4147bc126a640315ae61d47b37b401af"
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < X-Request-Id: 8bf61aba-6272-4a6d-a7fa-50a92adecc55
+1 < X-Runtime: 0.021620
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+[{"id":4521,"name":"Satyen Namboothiri122","email":"CbUGtQprlu@gmail.com","gender":"female","status":"inactive"},{"id":4234,"name":"Tanya Nayar Esq.","email":"tanya_esq_nayar@crona.co","gender":"female","status":"inactive"},{"id":4233,"name":"Prof. Gitanjali Menon","email":"prof_gitanjali_menon@brekke.net","gender":"male","status":"active"},{"id":4232,"name":"Shiv Mishra","email":"shiv_mishra@cummings.org","gender":"female","status":"inactive"},{"id":4231,"name":"Mahesh Prajapat V","email":"prajapat_v_mahesh@lehner-hayes.name","gender":"female","status":"inactive"},{"id":4230,"name":"Trilokanath Ganaka CPA","email":"cpa_ganaka_trilokanath@tromp.org","gender":"male","status":"inactive"},{"id":4229,"name":"Narinder Desai","email":"desai_narinder@boyer.com","gender":"female","status":"inactive"},{"id":4227,"name":"Dhanadeepa Dwivedi","email":"dwivedi_dhanadeepa@barrows.net","gender":"male","status":"active"},{"id":4226,"name":"Sen. Swami Dutta","email":"sen_swami_dutta@brakus.biz","gender":"female","status":"inactive"},{"id":4225,"name":"Trilokanath Chattopadhyay","email":"chattopadhyay_trilokanath@lehner.name","gender":"female","status":"inactive"},{"id":4224,"name":"Rep. Sukanya Sinha","email":"rep_sinha_sukanya@schroeder-mante.info","gender":"male","status":"inactive"},{"id":4222,"name":"Chatura Dutta","email":"dutta_chatura@stokes-anderson.io","gender":"male","status":"active"},{"id":4221,"name":"Tanushri Talwar","email":"talwar_tanushri@gottlieb-weimann.name","gender":"female","status":"inactive"},{"id":4220,"name":"Nagabhushanam Banerjee","email":"nagabhushanam_banerjee@goyette.co","gender":"female","status":"inactive"},{"id":4219,"name":"Deevakar Bhattathiri","email":"bhattathiri_deevakar@mitchell.io","gender":"male","status":"inactive"},{"id":4218,"name":"Arun Kapoor","email":"arun_kapoor@johnston.com","gender":"female","status":"active"},{"id":4217,"name":"Kamla Jain","email":"jain_kamla@hammes-fahey.org","gender":"female","status":"inactive"},{"id":4216,"name":"Kashyapi Nehru","email":"kashyapi_nehru@moen-gusikowski.biz","gender":"male","status":"active"},{"id":4215,"name":"Balagopal Jain DVM","email":"balagopal_dvm_jain@macejkovic.org","gender":"male","status":"active"},{"id":4214,"name":"Ekaaksh Mahajan","email":"mahajan_ekaaksh@hintz.org","gender":"male","status":"active"}]
+
+09:31:08.898 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 186
+2 < 200
+2 < Server: nginx
+2 < Date: Mon, 06 Jun 2022 04:01:08 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Vary: Accept-Encoding
+2 < Vary: Origin
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-XSS-Protection: 0
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < X-RateLimit-Limit: 90
+2 < X-RateLimit-Remaining: 88
+2 < X-RateLimit-Reset: 2
+2 < ETag: W/"a3fc017c3fd9067ca6b9606295c7e625"
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < X-Request-Id: 2fac00b5-6525-42b1-ac8e-9046a1a381aa
+2 < X-Runtime: 0.016166
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"id":4521,"name":"Satyen Namboothiri122","email":"CbUGtQprlu@gmail.com","gender":"female","status":"inactive"}
+
+09:31:08.900 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 4521,
+  "name": "Satyen Namboothiri122",
+  "email": "CbUGtQprlu@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+09:31:08.903 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "id": 4521,
+  "name": "Satyen Namboothiri122",
+  "email": "CbUGtQprlu@gmail.com",
+  "gender": "female",
+  "status": "inactive"
+}
+ 
+09:31:08.917 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > PUT https://gorest.co.in/public/v2/users/4521
+3 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 37
+3 > Host: gorest.co.in
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 > Accept-Encoding: gzip,deflate
+{"gender":"female","status":"active"}
+
+09:31:09.054 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 137
+3 < 200
+3 < Server: nginx
+3 < Date: Mon, 06 Jun 2022 04:01:09 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Vary: Accept-Encoding
+3 < Vary: Origin
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-XSS-Protection: 0
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < X-RateLimit-Limit: 90
+3 < X-RateLimit-Remaining: 87
+3 < X-RateLimit-Reset: 3
+3 < ETag: W/"b7a642242c0918efe50de5582e248441"
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < X-Request-Id: 2a5e537b-0f99-47c1-aa61-ae7fa6e2c3c0
+3 < X-Runtime: 0.021038
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+{"gender":"female","status":"active","id":4521,"name":"Satyen Namboothiri122","email":"CbUGtQprlu@gmail.com"}
+
+09:31:09.056 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "gender": "female",
+  "status": "active",
+  "id": 4521,
+  "name": "Satyen Namboothiri122",
+  "email": "CbUGtQprlu@gmail.com"
+}
+ 
+09:31:09.057 [pool-1-thread-1] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'jsondata' with new value: response
+09:31:09.063 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > DELETE https://gorest.co.in/public/v2/users/4521
+4 > Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 > Host: gorest.co.in
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+09:31:09.180 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 117
+4 < 204
+4 < Server: nginx
+4 < Date: Mon, 06 Jun 2022 04:01:09 GMT
+4 < Connection: keep-alive
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-XSS-Protection: 0
+4 < X-Content-Type-Options: nosniff
+4 < X-Download-Options: noopen
+4 < X-Permitted-Cross-Domain-Policies: none
+4 < Referrer-Policy: strict-origin-when-cross-origin
+4 < X-RateLimit-Limit: 90
+4 < X-RateLimit-Remaining: 86
+4 < X-RateLimit-Reset: 4
+4 < Cache-Control: no-cache
+4 < X-Request-Id: c861832f-6567-4327-a84e-7742e83270c9
+4 < X-Runtime: 0.018164
+4 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 < Vary: Origin
+
+
+09:31:10.433 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:com/api/automation/Crudoperation.feature
+09:31:10.649 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:com/api/automation/getrequest.feature

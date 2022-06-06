@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-2","id":1},{"content":"pool-1-thread-3","id":2},{"content":"pool-1-thread-4","id":3},{"content":"pool-1-thread-5","id":4},{"content":"pool-1-thread-1","id":5}];
+var items = [{"id":1,"group":1,"content":"com\/api\/automation\/getrequest[1:4]","start":1654245128547,"end":1654245130507,"title":"com\/api\/automation\/getrequest[1:4] 14:02:08.547-14:02:10.507 get user details","className":"failed"},{"id":2,"group":2,"content":"com\/api\/automation\/getrequest[2:42]","start":1654245128552,"end":1654245130419,"title":"com\/api\/automation\/getrequest[2:42] 14:02:08.552-14:02:10.419 get user details user not found"},{"id":3,"group":3,"content":"com\/api\/automation\/getrequest[3:48]","start":1654245128551,"end":1654245128870,"title":"com\/api\/automation\/getrequest[3:48] 14:02:08.551-14:02:08.870 Read jsond ata"},{"id":4,"group":4,"content":"com\/api\/automation\/getrequest[4:74]","start":1654245128547,"end":1654245130483,"title":"com\/api\/automation\/getrequest[4:74] 14:02:08.547-14:02:10.483 Get request with query parameter"},{"id":5,"group":3,"content":"com\/api\/automation\/getrequest[5:86]","start":1654245128885,"end":1654245130396,"title":"com\/api\/automation\/getrequest[5:86] 14:02:08.885-14:02:10.396 Validate the authetication token"},{"id":6,"group":5,"content":"com\/api\/automation\/Crudoperation[1:32]","start":1654245128552,"end":1654245131716,"title":"com\/api\/automation\/Crudoperation[1:32] 14:02:08.552-14:02:11.716 Update  user with CRUD Operation"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

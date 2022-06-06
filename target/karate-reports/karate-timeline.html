@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-2","id":1},{"content":"pool-1-thread-3","id":2},{"content":"pool-1-thread-4","id":3},{"content":"pool-1-thread-5","id":4},{"content":"pool-1-thread-1","id":5}];
+var items = [{"id":1,"group":1,"content":"com\/api\/automation\/getrequest[1:4]","start":1654488065870,"end":1654488068708,"title":"com\/api\/automation\/getrequest[1:4] 09:31:05.870-09:31:08.708 get user details","className":"failed"},{"id":2,"group":2,"content":"com\/api\/automation\/getrequest[2:42]","start":1654488065870,"end":1654488068419,"title":"com\/api\/automation\/getrequest[2:42] 09:31:05.870-09:31:08.419 get user details user not found","className":"failed"},{"id":3,"group":3,"content":"com\/api\/automation\/getrequest[3:48]","start":1654488065870,"end":1654488066473,"title":"com\/api\/automation\/getrequest[3:48] 09:31:05.870-09:31:06.473 Read jsond ata"},{"id":4,"group":4,"content":"com\/api\/automation\/getrequest[4:74]","start":1654488065870,"end":1654488068570,"title":"com\/api\/automation\/getrequest[4:74] 09:31:05.870-09:31:08.570 Get request with query parameter"},{"id":5,"group":3,"content":"com\/api\/automation\/getrequest[5:86]","start":1654488066481,"end":1654488068807,"title":"com\/api\/automation\/getrequest[5:86] 09:31:06.481-09:31:08.807 Validate the authetication token"},{"id":6,"group":5,"content":"com\/api\/automation\/Crudoperation[1:32]","start":1654488065870,"end":1654488069180,"title":"com\/api\/automation\/Crudoperation[1:32] 09:31:05.870-09:31:09.180 Update  user with CRUD Operation"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

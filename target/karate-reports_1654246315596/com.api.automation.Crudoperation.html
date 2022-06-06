@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>com.api.automation.Crudoperation</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-03 02:02:11 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:32]"><span>[1:32]</span> <span>Update  user with CRUD Operation</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/api/automation/Crudoperation.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Validate the Crud Operation</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:32]</span>
+                <span class="scenario-name">Update  user with CRUD Operation</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2937</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">14:02:08.717 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def random_string =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">53</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.6">function(s){
+var text = &quot;&quot;;
+var pattern = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;;
+for(var i=0; i&lt;s;i++)
+    text += pattern.charAt(Math.floor(Math.random() * pattern.length()));
+    return text;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref bg-step">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def RandomString = random_string(10);</span>
+      </div>
+    </div>
+    <div class="time-cell passed">60</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print RandomString</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">14:02:08.888 [print] GcuxmPJGKR 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref bg-step">21</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestPayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.21">{
+    &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref bg-step">29</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set requestPayload.email = RandomString + &quot;@gmail.com&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref bg-step">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print requestPayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">14:02:08.902 [print] {
+  &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+  &quot;gender&quot;: &quot;female&quot;,
+  &quot;status&quot;: &quot;inactive&quot;,
+  &quot;email&quot;: &quot;GcuxmPJGKR@gmail.com&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#post call</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestPayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + tokenId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1525</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.37">14:02:09.276 request:
+1 &gt; POST https://gorest.co.in/public/v2/users
+1 &gt; Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 101
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Satyen Namboothiri122&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;,&quot;email&quot;:&quot;GcuxmPJGKR@gmail.com&quot;}
+
+14:02:10.430 response time in milliseconds: 1151
+1 &lt; 201
+1 &lt; Server: nginx
+1 &lt; Date: Fri, 03 Jun 2022 08:32:10 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 89
+1 &lt; X-RateLimit-Reset: 2
+1 &lt; Location: https://gorest.co.in/public/v2/users/5978
+1 &lt; ETag: W/&quot;27d9f91f581736c092d58f222c7ec41f&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: d20ec34d-3b61-48e2-bfee-871c927761fa
+1 &lt; X-Runtime: 0.021324
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; Vary: Origin
+{&quot;id&quot;:5978,&quot;name&quot;:&quot;Satyen Namboothiri122&quot;,&quot;email&quot;:&quot;GcuxmPJGKR@gmail.com&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.39">14:02:10.453 [print] {
+  &quot;id&quot;: 5978,
+  &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+  &quot;email&quot;: &quot;GcuxmPJGKR@gmail.com&quot;,
+  &quot;gender&quot;: &quot;female&quot;,
+  &quot;status&quot;: &quot;inactive&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsondata = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsondata.id == &#39;#present&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = jsondata.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#get call</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public/v2/users/&#39;+userid</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + tokenId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">368</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">14:02:10.499 request:
+2 &gt; GET https://gorest.co.in/public/v2/users/5978
+2 &gt; Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+2 &gt; Host: gorest.co.in
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+14:02:10.859 response time in milliseconds: 359
+2 &lt; 200
+2 &lt; Server: nginx
+2 &lt; Date: Fri, 03 Jun 2022 08:32:10 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; Vary: Accept-Encoding
+2 &lt; Vary: Origin
+2 &lt; X-Frame-Options: SAMEORIGIN
+2 &lt; X-XSS-Protection: 0
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; X-RateLimit-Limit: 90
+2 &lt; X-RateLimit-Remaining: 88
+2 &lt; X-RateLimit-Reset: 2
+2 &lt; ETag: W/&quot;27d9f91f581736c092d58f222c7ec41f&quot;
+2 &lt; Cache-Control: max-age=0, private, must-revalidate
+2 &lt; X-Request-Id: 161262cc-f34d-4d93-8978-d475a46ce3ac
+2 &lt; X-Runtime: 0.014515
+2 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+{&quot;id&quot;:5978,&quot;name&quot;:&quot;Satyen Namboothiri122&quot;,&quot;email&quot;:&quot;GcuxmPJGKR@gmail.com&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.50">14:02:10.866 [print] {
+  &quot;id&quot;: 5978,
+  &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+  &quot;email&quot;: &quot;GcuxmPJGKR@gmail.com&quot;,
+  &quot;gender&quot;: &quot;female&quot;,
+  &quot;status&quot;: &quot;inactive&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsonresponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print jsonresponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">14:02:10.873 [print] {
+  &quot;id&quot;: 5978,
+  &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+  &quot;email&quot;: &quot;GcuxmPJGKR@gmail.com&quot;,
+  &quot;gender&quot;: &quot;female&quot;,
+  &quot;status&quot;: &quot;inactive&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsonresponse.id == userid</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># put call for update</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestputPayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.56">{
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;active&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public/v2/users/&#39;+userid</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestputPayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.65">
+      <div class="step-ref passed">65</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + tokenId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">433</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.66">14:02:10.885 request:
+3 &gt; PUT https://gorest.co.in/public/v2/users/5978
+3 &gt; Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Content-Length: 37
+3 &gt; Host: gorest.co.in
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;}
+
+14:02:11.311 response time in milliseconds: 425
+3 &lt; 200
+3 &lt; Server: nginx
+3 &lt; Date: Fri, 03 Jun 2022 08:32:11 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Connection: keep-alive
+3 &lt; Vary: Accept-Encoding
+3 &lt; Vary: Origin
+3 &lt; X-Frame-Options: SAMEORIGIN
+3 &lt; X-XSS-Protection: 0
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Download-Options: noopen
+3 &lt; X-Permitted-Cross-Domain-Policies: none
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; X-RateLimit-Limit: 90
+3 &lt; X-RateLimit-Remaining: 87
+3 &lt; X-RateLimit-Reset: 3
+3 &lt; ETag: W/&quot;4056c8af3983726a6eaa5742d23611c5&quot;
+3 &lt; Cache-Control: max-age=0, private, must-revalidate
+3 &lt; X-Request-Id: bc875851-02f3-4386-97a1-8822e0379565
+3 &lt; X-Runtime: 0.018847
+3 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+{&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;,&quot;id&quot;:5978,&quot;name&quot;:&quot;Satyen Namboothiri122&quot;,&quot;email&quot;:&quot;GcuxmPJGKR@gmail.com&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.68">14:02:11.317 [print] {
+  &quot;gender&quot;: &quot;female&quot;,
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;id&quot;: 5978,
+  &quot;name&quot;: &quot;Satyen Namboothiri122&quot;,
+  &quot;email&quot;: &quot;GcuxmPJGKR@gmail.com&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.69">
+      <div class="step-ref passed">69</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jsondata = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.70">
+      <div class="step-ref passed">70</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsondata.id == userid</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsondata.name == &#39;#present&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match jsondata.email == requestPayload.email</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># delete operation</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.76">
+      <div class="step-ref passed">76</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public/v2/users/&#39;+userid</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.77">
+      <div class="step-ref passed">77</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + tokenId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.78">
+      <div class="step-ref passed">78</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">385</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.78">14:02:11.337 request:
+4 &gt; DELETE https://gorest.co.in/public/v2/users/5978
+4 &gt; Authorization: Bearer 5fef9e97b7a7dd14b3d01e0b1463963866ebbb00050ea94c3294dc33eff9ae9c
+4 &gt; Host: gorest.co.in
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+4 &gt; Accept-Encoding: gzip,deflate
+
+
+14:02:11.707 response time in milliseconds: 361
+4 &lt; 204
+4 &lt; Server: nginx
+4 &lt; Date: Fri, 03 Jun 2022 08:32:11 GMT
+4 &lt; Connection: keep-alive
+4 &lt; X-Frame-Options: SAMEORIGIN
+4 &lt; X-XSS-Protection: 0
+4 &lt; X-Content-Type-Options: nosniff
+4 &lt; X-Download-Options: noopen
+4 &lt; X-Permitted-Cross-Domain-Policies: none
+4 &lt; Referrer-Policy: strict-origin-when-cross-origin
+4 &lt; X-RateLimit-Limit: 90
+4 &lt; X-RateLimit-Remaining: 86
+4 &lt; X-RateLimit-Reset: 4
+4 &lt; Cache-Control: no-cache
+4 &lt; X-Request-Id: 196346a2-a5d8-4cb3-a985-686001823cd8
+4 &lt; X-Runtime: 0.020319
+4 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+4 &lt; Vary: Origin
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.79">
+      <div class="step-ref passed">79</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
