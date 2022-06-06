@@ -1,0 +1,7 @@
+examples/users/UsersRunner.class
+examples/users/ParallelBuilder.class
+com/api/automation/ParallelBuilder.class
+examples/users/GetRunner.class
+examples/ExamplesTest.class
+com/api/automation/ParallelBuilderCucumberreport.class
+com/api/automation/ParallelRunner.class
